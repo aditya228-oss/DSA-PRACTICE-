@@ -2,6 +2,8 @@
 // else if statement check there is no duplication of largest element in slargest
 //if all element of array is same means no second largest value will return -1
 // simalar approach for second smallast
+// this is optimal apporach
+//the brute force approach will first find largest through first loop and then again loop with if arr!=largest and slargest=arr[i]
 
 import java.util.Scanner;
 public class secondLargest{
